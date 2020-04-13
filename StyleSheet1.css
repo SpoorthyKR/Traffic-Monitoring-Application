@@ -1,0 +1,61 @@
+﻿
+body
+{
+    background-image:url("img/backgr.jpg");
+    color:#9E9E9E;
+    font-family:Optima, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Verdana, Helvetica, Arial, sans-serif;
+}
+#header 
+{
+    margin: 20px;
+    padding: 10px;
+    height: 60px;
+}
+#footer
+{
+    margin: 20px;
+    padding: 10px;
+    height: 60px;
+}
+#leftcol
+{
+    position: absolute;
+    left: 150px;
+    top: 160px;
+    width:400px;
+}
+#rightcol 
+{
+    position: absolute;
+    right: 150px;
+    top: 220px;
+    width: 300px;
+}
+.inputbox
+{
+    background-color:black;
+    color:#9E9E9E;
+    font-family:Optima, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Verdana, Helvetica, Arial, sans-serif;
+    box-shadow:1px;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+}
+.box {width:700px;padding:15px;background-color:#fff;margin-bottom:18px;border-radius:0.6em;-moz-border-radius:0.6em;-webkit-border-radius:0.6em;}
+.box {
+    -moz-box-shadow: 4px 4px 5px #111;
+    -webkit-box-shadow: 4px 4px 5px #111;
+    box-shadow: 4px 4px 5px #111;
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111');
+}
+.head
+{
+    margin-top:50px;
+}
+.input
+{
+    font-size:14px;
+}
